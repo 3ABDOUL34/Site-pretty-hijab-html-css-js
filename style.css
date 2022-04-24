@@ -1,0 +1,666 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+*{
+    font-family: ;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/* texte menu */
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+width: 80px;
+}
+
+section.top-page{
+    background: url('../images/Bg.jpg');
+    height: 80vh;
+    background-size: cover;
+    paddIng: 30px;
+}
+
+/* page de bienvenu "landing page" */
+
+.landing-page{
+    padding: 20px 50px;
+
+}
+.big-title{
+    color: black;
+    font-family: 'Abril FatFace';
+    font-weight: 50px;
+    font-size: 50px;
+    width: 70px;
+}
+.scroll-down{
+    color:black;
+    text-decoration: none;
+    position: absolute;
+    bottom: 70px;
+}
+/* menu de navigation */
+
+nav.nav {   
+display:flex;
+justify-content: space-between;
+list-style: none;
+width: 600px;
+margin-left: 80px;
+background-color: #ffffff;
+}
+nav.nav li{
+    color: white;
+    font-size: 20px;
+}
+
+/* services */
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.services-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+}
+.delivery-icon{
+    font-size: 50px;
+    color: #BC2148;
+}
+.service-details{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* best-sells */
+
+.section-title{
+    font-size: 50;
+    font-family: Abril FatFace, cursive;
+    font-weight: 100;
+    position: relative;
+    text-align: center;
+
+}
+.section-title::before{
+background-color: #BC2148;
+content: "";
+    position: absolute;
+    background-color: ;
+    width: 50px;
+    height: 6px;
+    bottom: 0px;
+}
+.Nos-meilleurs{
+    margin: 100px;
+}
+.best-plants{
+    background-color:red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plant-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+.no-grid{
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.plant1{
+    background-image: url(../images/nos_meilleures_ventes/1.jpg);
+
+}
+.plant2{
+    background-image: url(../images/nos_meilleures_ventes/2.png);
+
+}
+.plant3{
+    background-image: url(../images/nos_meilleures_ventes/4.png);
+
+}
+.plant4{
+    background-image: url(../images/nos_meilleures_ventes/3.png);
+
+}
+.plant5{
+    background-image: url(../images/nos_meilleures_ventes/5.png);
+
+}
+.plant6{
+    background-image: url(../images/nos_meilleures_ventes/6.png);
+
+}
+.plant7{
+    background-image: url(../images/nos_meilleures_ventes/7.png);
+
+}
+
+.plant-details{
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    background-color: rgb(245, 240, 240);
+    padding: 5px 15px;
+}
+.plant-name{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+.plant-price{
+    color:#BC2148;
+     font-weight: 800;
+    line-height: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+/* nos plantes */
+
+
+
+
+
+.Nos-produits{
+    margin: 100px;
+}
+
+.hijab-produits{
+    display: grid;
+    min-height: 150;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 400px);
+}
+
+.habaya1{
+    background-image: url(../images/nos-produits/ABA1.png);
+    grid-column: 
+    grid-row: ;
+}
+
+.habaya2{
+    background-image: url(../images/nos-produits/ABA2.png);
+    grid-column: 
+    grid-row:
+}
+
+.habaya3{
+    background-image: url(../images/nos-produits/ABA3.png);
+    grid-column: 
+    grid-row:
+}
+
+.habaya4{
+    background-image: url(../images/nos-produits/ABA4.png);
+    grid-column: 
+    grid-row:
+}
+
+
+.accessoires3{
+    background-image: url(../images/nos-produits/Bonet1.png);
+    grid-column:
+}
+
+.accessoires4{
+    background-image: url(../images/nos-produits/bonet2.png);
+    grid-column:
+}
+.accessoires2{
+    background-image: url(../images/nos-produits/ACC5.png);
+    grid-column:
+
+}
+    .accessoires1{
+    background-image: url(../images/nos-produits/ACC1.png);
+    grid-column:
+}
+
+
+.foulard1{
+    background-image: url(../images/nos-produits/F3.jpg);
+}
+.foulard2{
+    background-image: url(../images/nos-produits/F11.png);
+    
+}
+.foulard3{
+    background-image: url(../images/nos-produits/F2.png);
+    
+}
+.foulard4{
+    background-image: url(../images/nos-produits/F6.png);
+
+}
+
+
+.robe1{
+    background-image: url(../images/nos-produits/ROBE\ R.png);
+}
+.foulard2{
+    background-image: url(../images/nos-produits/F11.png);
+    
+}
+.foulard3{
+    background-image: url(../images/nos-produits/F2.png);
+    
+}
+.foulard4{
+    background-image: url(../images/nos-produits/F6.png);
+
+}
+
+.robe1{
+    background-image: url(../images/nos-produits/RVERT.png);
+
+}
+.robe2{
+    background-image: url(../images/nos-produits/RROUGE.png);
+
+}
+.robe3{
+    background-image: url(../images/nos-produits/ROBER.png);
+
+}
+
+.robe4{
+    background-image: url(../images/nos-produits/RB.png);
+
+}
+.voiles1{
+    background-image: url(../images/nos-produits/V1.png);
+
+}
+.voiles2{
+    background-image: url(../images/nos-produits/V2.png);
+
+}
+.voiles3{
+    background-image: url(../images/nos-produits/V3.png);
+
+}
+.voiles4{
+    background-image: url(../images/nos-produits/vb.png);
+
+}
+
+
+
+
+
+
+.soldes{
+    margin: 100px;
+}
+
+.soldes-produits{
+    display: grid;
+    min-height: 150;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 400px);
+}
+
+.habaya1{
+    background-image: url(../images/nos-produits/ABA1.png);
+    grid-column: 
+    grid-row: ;
+}
+
+.habaya2{
+    background-image: url(../images/nos-produits/ABA2.png);
+    grid-column: 
+    grid-row:
+}
+
+.habaya3{
+    background-image: url(../images/nos-produits/ABA3.png);
+    grid-column: 
+    grid-row:
+}
+
+.habaya4{
+    background-image: url(../images/nos-produits/ABA4.png);
+    grid-column: 
+    grid-row:
+}
+
+
+.accessoires3{
+    background-image: url(../images/nos-produits/Bonet1.png);
+    grid-column:
+}
+
+.accessoires4{
+    background-image: url(../images/nos-produits/bonet2.png);
+    grid-column:
+}
+.accessoires2{
+    background-image: url(../images/nos-produits/ACC5.png);
+    grid-column:
+
+}
+    .accessoires1{
+    background-image: url(../images/nos-produits/ACC1.png);
+    grid-column:
+}
+
+
+.foulard1{
+    background-image: url(../images/nos-produits/F3.jpg);
+}
+.foulard2{
+    background-image: url(../images/nos-produits/F11.png);
+    
+}
+.foulard3{
+    background-image: url(../images/nos-produits/F2.png);
+    
+}
+.foulard4{
+    background-image: url(../images/nos-produits/F6.png);
+
+}
+
+
+.robe1{
+    background-image: url(../images/nos-produits/ROBE\ R.png);
+}
+.foulard2{
+    background-image: url(../images/nos-produits/F11.png);
+    
+}
+.foulard3{
+    background-image: url(../images/nos-produits/F2.png);
+    
+}
+.foulard4{
+    background-image: url(../images/nos-produits/F6.png);
+
+}
+
+.robe1{
+    background-image: url(../images/nos-produits/RVERT.png);
+
+}
+.robe2{
+    background-image: url(../images/nos-produits/RROUGE.png);
+
+}
+.robe3{
+    background-image: url(../images/nos-produits/ROBER.png);
+
+}
+
+.robe4{
+    background-image: url(../images/nos-produits/RB.png);
+
+}
+.voiles1{
+    background-image: url(../images/nos-produits/V1.png);
+
+}
+.voiles2{
+    background-image: url(../images/nos-produits/V2.png);
+
+}
+.voiles3{
+    background-image: url(../images/nos-produits/V3.png);
+
+}
+.voiles4{
+    background-image: url(../images/nos-produits/vb.png);
+
+}
+
+
+
+
+/*  pieds de page*/
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+footer a.cgv{
+    text-decoration: none;
+    color: black;
+
+}
+
+/*partie mobilee*/
+
+
+@media (max-width:800px){
+
+nav.nav{
+    flex-direction:column;
+    height: 0px; 
+    background-color: ;
+    display: block;
+}
+
+nav.nav li{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+  
+}
+.soldes{
+    margin: 50px;   
+}
+.soldes-produits{
+    display: grid;
+    min-height: 100;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 400px);
+    background-color: ;
+}
+.Nos-produits{
+    margin: 50px;
+}
+
+.hijab-produits{
+    display: grid;
+    min-height: 150;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 400px);
+}
+.Nos-meilleurs{
+    margin: 70px;
+}
+.best-plants{
+    background-color:red;
+    min-height: 40px;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+}
+section.top-page{
+    background: url('../images/ABD.png');
+    height: 40vh;
+    background-size: cover;
+    padding-top: -60px;
+}
+header.header img {
+    width: 40px;
+    height: 40px;
+    
+    }
+    header.header{
+        display: flex;
+        align-items: center;
+    }
+  
+    plant-details{
+        position: absolute;
+        width: 20%;
+        bottom: 0px;
+        background-color: rgb(236, 63, 63);
+        padding: 5px 15px;
+    }
+    .plant-name{
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .plant-price{
+        color:#BC2148;
+         font-weight: 800;
+        line-height: 12px;
+        font-weight: 1000;
+        font-size: 15px;
+        text-align: center;
+    }    
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 50px;
+        font-weight: 300;
+        text-align: left;
+        min-width: 50px;
+    }
+    footer a.cgv{
+        text-decoration: none;
+        color: black;
+        text-align: right;
+        font-size: 15px;
+    }
+
+}
+
+
+/*partie tablette*
+
+
+
+@media (max-width:800px){
+
+    nav.nav{
+        flex-direction:column;
+        height: 0px; 
+        background-color: ;
+        display: block;
+    }
+    
+    nav.nav li{
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+      
+    }
+    .soldes{
+        margin: 50px;   
+    }
+    .soldes-produits{
+        display: grid;
+        min-height: 100;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 400px);
+        background-color: ;
+    }
+    .Nos-produits{
+        margin: 50px;
+    }
+    
+    .hijab-produits{
+        display: grid;
+        min-height: 150;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 400px);
+    }
+    .Nos-meilleurs{
+        margin: 70px;
+    }
+    .best-plants{
+        background-color:red;
+        min-height: 40px;
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);
+        flex-wrap: wrap;
+    }
+    section.top-page{
+        background: url('../images/ABD.png');
+        height: 40vh;
+        background-size: cover;
+        padding-top: -60px;
+    }
+    header.header img {
+        width: 40px;
+        height: 40px;
+        
+        }
+        header.header{
+            display: flex;
+            align-items: center;
+        }
+      
+        plant-details{
+            position: absolute;
+            width: 20%;
+            bottom: 0px;
+            background-color: rgb(236, 63, 63);
+            padding: 5px 15px;
+        }
+        .plant-name{
+            font-size: 15px;
+            font-weight: 300;
+            text-align: center;
+        }
+        .plant-price{
+            color:#BC2148;
+             font-weight: 800;
+            line-height: 12px;
+            font-weight: 1000;
+            font-size: 15px;
+            text-align: center;
+        }    
+    
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 50px;
+            font-weight: 300;
+            text-align: left;
+            min-width: 50px;
+        }
+        footer a.cgv{
+            text-decoration: none;
+            color: black;
+            text-align: right;
+            font-size: 15px;
+        }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
